@@ -2,6 +2,8 @@
 
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	/*declaring str*/
+	char babe = "Programming is like building a multilingual puzzle"
+	puts(babe);/*printing the str*/
 	return (0);
 }
