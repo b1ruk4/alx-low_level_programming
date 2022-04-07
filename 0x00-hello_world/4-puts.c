@@ -3,7 +3,6 @@
 int main(void)
 {
 	/*declaring str*/
-	char babe = "Programming is like building a multilingual puzzle"
-	puts(babe);/*printing the str*/
+	puts("Programming is like building a multilingual puzzle");
 	return (0);
 }
