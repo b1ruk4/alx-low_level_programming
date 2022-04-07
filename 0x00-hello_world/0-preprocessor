@@ -1,4 +1,2 @@
 #!/bin/bash
-export $CFILE=main.c
-
-gcc $CFILE -o c
+export CFILR=main.c | gcc $CFILE -o c
