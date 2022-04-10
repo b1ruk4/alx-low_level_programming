@@ -6,19 +6,20 @@
 /* betty style doc for function main goes there */
 int main()
 {
-
-	char n = rand();
+	int n;
 	srand(time(0));
-	if(rand>0)
+	n =rand() - RAND_MAX /2;
+
+	if(n>1)
 		{
-		printf("%d is postive\n", rand());
+		printf("%d is postive\n", n);
 		}
-	else if (rand==0){
-		printf("%d is zero\n", rand());
+	else if (n<0){
+		printf("%d is negative\n", n);
 		}
 	else
 		{
-		printf("%d is negative\n", rand());
+		printf("%d is zero\n", n);
 		}
 	return (0);
 }
