@@ -9,7 +9,7 @@
  *
  *return: Always 0.
  */
-int main(void) //return type
+int main(void) /*return type*/
 {
 int n;
 
