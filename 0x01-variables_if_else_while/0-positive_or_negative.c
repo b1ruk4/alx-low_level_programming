@@ -4,20 +4,20 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
+int main()
 {
-	int n;
 	
 	srand(time(0));
-	for(int i = 0; i < 1; i++)
-		if(n>0){
-			printf("%d is postive", rand());
+	if(rand>0)
+		{
+		printf("%d is postive\n", rand());
 		}
-		else if (n == 0){
-			printf("%d is zero", rand());
+	else if (rand==0){
+		printf("%d is zero\n", rand());
 		}
-		else {
-			printf("%d is negative", rand());
+	else
+		{
+		printf("%d is negative\n", rand());
 		}
 	return (0);
 }
