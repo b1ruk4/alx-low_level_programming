@@ -6,7 +6,8 @@
 /* betty style doc for function main goes there */
 int main()
 {
-	
+
+	char n = rand();
 	srand(time(0));
 	if(rand>0)
 		{
