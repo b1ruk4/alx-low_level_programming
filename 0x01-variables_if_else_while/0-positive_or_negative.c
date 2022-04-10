@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - Prints a number and states wheather
- *     it is positive, negative, or zero.
+ * main - Prints arandum number and states wheather
+ *         it is positive, negative, or zero.
  *
- *     return:mAlways 0.
+ *return: Always 0.
  */
 int main(void)
 {
