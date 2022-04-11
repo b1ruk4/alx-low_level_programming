@@ -2,7 +2,7 @@
 
 
 /**
- * main - entry point.
+ * main - main block.
  *
  * Description: prints the alphabet in lowercase, followed by a new line.
  *
@@ -13,7 +13,7 @@ int main(void)
 {
 int c;
 
-for (int c = 0; c < 26; ++c)
+for (c = 0; c < 26; ++c)
 putchar('a' + c);
 
 return (0);
