@@ -1,18 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - main block.
+ * main - entry point
  *
  * Return: always 0
  */
 int main(void)
 {
-int c;
+	int c;
 
-    for (c = 0; c < 26; ++c)
-{
-        if (c != 'q' && c != 'e')
-            putchar('a' + c);
-}
-putchar(10);
-return (0);
+	for (c = 97; c <= 122; c++)
+	{
+		if (c != 101 && c != 113)
+			putchar(c);
+	}
+	putchar(10);
+	return (0);
 }
