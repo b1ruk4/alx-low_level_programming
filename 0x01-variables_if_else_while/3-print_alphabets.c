@@ -12,7 +12,7 @@ int c;
 for (c = 0; c < 26; ++c)
 
 putchar('a' + c);
-putchar(10);
+
 
 for (c = 65; c <= 90; c++)
 putchar(c);
