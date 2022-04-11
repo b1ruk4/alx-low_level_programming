@@ -5,8 +5,7 @@
  * main - main block.
  *
  * Description: prints the alphabet in lowercase, followed by a new line.
- *
- * return 0.
+ * Return: always 0
  */
 
 int main(void)
@@ -14,7 +13,9 @@ int main(void)
 int c;
 
 for (c = 0; c < 26; ++c)
+{
 putchar('a' + c);
-
+}
+putchar("\n");
 return (0);
 }
