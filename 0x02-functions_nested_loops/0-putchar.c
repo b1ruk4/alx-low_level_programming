@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - function prints _putchar
+ *description: main - function prints _putchar
  *
- * return: 0
- * */
+ *Return: 0
+ **/
 int main(void)
 {
 	printf("_putchar \n");
