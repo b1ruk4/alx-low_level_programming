@@ -5,7 +5,7 @@
  *
  * Return: 1 if char is latter, lowercase or uppercase, 0 otherwise.
  */
-int -isalpha(int c)
+int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') ||
 	(c >= 'a' && c <= 'z'))
