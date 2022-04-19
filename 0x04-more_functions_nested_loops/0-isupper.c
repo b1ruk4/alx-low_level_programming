@@ -1,8 +1,8 @@
-#include <main.h>
+#include "main.h"
 /**
- * _isupper -  evalurete if letter is uppercase.
- * @c:prints int
- * Return: give 1 or 0.
+ * _isupper - checkes upper case
+ * @c: print int
+ * Return: give 1 or 0
  */
 
 int _isupper(int c)
