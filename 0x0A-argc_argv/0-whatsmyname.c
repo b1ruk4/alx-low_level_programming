@@ -1,11 +1,11 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - print the name  of the program
- *@argc: sie of argv
- *@argv: arry jof the pointer 
- * return: is 0.
+ * main - entry point prints the name of the program
+ * @argc: size of argv
+ * @argv: array of pointers to command line args passed
+ *
+ * Return: 0
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
