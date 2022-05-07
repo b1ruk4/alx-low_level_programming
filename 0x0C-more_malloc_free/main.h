@@ -1,15 +1,15 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H_
+#define MAIN_H_
 
 #include <stdlib.h>
+#include <stdio.h>
+
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
-int _atoi(const char *s);
-void print_int(unsigned long int n);
 
 /*functions for 101-mul.c */
 
@@ -18,7 +18,7 @@ void print_int(unsigned long int n);
  *              and exits with 98
  *
  * Return: Error 98 and exit(98)
-
+*/
 
 int error_exit(void)
 {
@@ -39,7 +39,7 @@ int error_exit(void)
  * @str: string to check
  *
  * Return: 0 is true 1 if false
-*
+*/
 
 int check_number(char *str)
 {
@@ -58,7 +58,7 @@ int check_number(char *str)
  * @str: string to get length of
  *
  * Return: length of string
-*
+*/
 
 int _length(char *str)
 {
@@ -68,5 +68,5 @@ int _length(char *str)
 		i++;
 	return (i);
 }
-*/
-#endif
+
+#endif /* MAIN_H_ */
