@@ -1,3 +1,8 @@
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+
 /*functions for 101-mul.c */
 
 /**
