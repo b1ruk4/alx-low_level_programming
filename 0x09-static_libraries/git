@@ -1,3 +1,2 @@
 #!/bin/bash
-read x
-gcc -c $x -o $x.o
+gcc -c $*.c -o $*.o
