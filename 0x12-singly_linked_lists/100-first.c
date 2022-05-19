@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Description:  hare prints string before
+ * hare - prints string before
  * the main function is excuted.
  */
 
