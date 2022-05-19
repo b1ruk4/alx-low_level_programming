@@ -3,11 +3,9 @@
 #include <stdlib.h>
 /**
  * print_list - is a function that prints all elements of a list_t list
- * @h: is the string input.
- * Return: number of nodes.
+ * @h: is the string input
+ * Return: number of nodes
  */
-
-
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
