@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * hare prints string before the main function is executed.
+ * hare prints string before
+ * the main function is excuted.
  */
 
 void hare(void)
