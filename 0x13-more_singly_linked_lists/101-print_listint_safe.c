@@ -64,7 +64,7 @@ size_t print_listint_safe(const listint_t *head)
 
 	nodes = looped_listint_len(head);
 
-	if (nodes == 0);
+	if (nodes == 0)
 	{
 		for (head != NULL; nodes++)
 		{
