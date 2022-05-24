@@ -7,7 +7,6 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
  */
 #include <stdlib.h>
 
